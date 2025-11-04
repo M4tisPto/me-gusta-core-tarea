@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+.social-like {
+  display: flex;
+  background-color: rgb(65, 65, 65);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  width: 100vh;
+  padding: 100px;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  gap: 15px;
+  height: 260px;
+  border-radius: 10px;
+  outline: 5px solid ;
+}
+
+.profile-card h2 {
+  font-size: 12pt;
+}
+
+.profile-card img {
+  height: 150px;
+  border-radius: 100%;
+}
+
+.profile-btn {
+  padding: 3px 13px;
+  border: none;
+  background-color: #00c4c4;
+  font-size: 13pt;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.profile-btn:hover {
+  background-color: #00a0a0;
+}
+
+.last-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 75%;
+    width: 100%;
+  max-width: 2000px;
+  gap: 15px;
+}
+
+.post-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 2000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.post-container h2 {
+  font-size: 15pt;
+}
+
+.post {
+  padding: 20px;
+  outline: 3px solid;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.text-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.text-column p{
+    font-size: 15px;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.like-btn{
+    padding: 5px 10px;
+    border: none;
+    background-color: #FFD700;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.like-btn:hover{
+    background-color: #d19e00;
+}
+
+.post, .profile-card {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
